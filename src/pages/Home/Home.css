@@ -1,0 +1,7 @@
+.home-container {
+  position: relative;
+  width: 800px;
+  height: 960px;
+  left: calc(50% - 800px / 2);
+  background: #ffffff;
+}

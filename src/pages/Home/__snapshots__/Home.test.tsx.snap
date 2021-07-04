@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> renders correctly 1`] = `
+<DocumentFragment>
+  <main
+    class="home-container"
+  >
+    <div
+      class="container-header"
+    >
+      <img
+        class="header-logo"
+        src="bullsfirst-logo.svg"
+      />
+      <button
+        aria-label="Sign in"
+        class="btn-sm primary-main mb-3"
+        type="submit"
+      >
+        Sign in
+      </button>
+      <p
+        class="header-text"
+      >
+        Get better results with Bullsfirst at the helm of your portfolio.
+      </p>
+      <img
+        class="popsicle-img"
+      />
+    </div>
+    <div
+      class="detail-container"
+    >
+      <p
+        class="text-default"
+      >
+        Every account comes with:
+      </p>
+      <ul>
+        <li
+          class="text-default"
+        >
+          0-second execution
+        </li>
+        <li
+          class="text-default"
+        >
+          Portfolio insurance
+        </li>
+        <li
+          class="text-default"
+        >
+          1 popsicle
+        </li>
+      </ul>
+      <p
+        class="text-default"
+      >
+        We love to trade, and we hope you do too! 
+      </p>
+      <p
+        class="text-default"
+      >
+        Now you can express that love with the latest trading platform from Bullsfirst. We guarantee a 0-second trade execution, and will give you a free popsicle if your trade doesn’t go through in this time period.
+      </p>
+      <p
+        class="text-default-italic"
+      >
+        On a side-note, we just bought a big freezer and 10,000 popsicles. Thankfully, we’ve hedged all popsicle expenses for the next two years! (Commodity experts say popsicles are on the rise).
+      </p>
+      <p
+        class="text-sm-italic"
+      >
+        This is a demo application. All data displayed is fictitious.
+      </p>
+    </div>
+  </main>
+</DocumentFragment>
+`;
