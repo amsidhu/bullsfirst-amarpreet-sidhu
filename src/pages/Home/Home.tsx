@@ -1,28 +1,17 @@
-import React from 'react';
+//import React from 'react';
+import React, { Fragment } from 'react';
 import { Loading } from '../../components';
+import { Hero, HeroDetail } from '../../pages';
 import { StringUtils } from '../../utils';
-import { MovieList } from './MovieList';
-import { useMovies } from './useMovies';
+import './Home.css';
 
 export const Home = () => {
-  const { isLoading, isError, error, movies } = useMovies();
-
-  if (isLoading) {
-    return <Loading />;
-  }
-
-  if (isError) {
-    return (
-      <main>
-        <h1>{StringUtils.errorToString(error)}</h1>
-      </main>
-    );
-  }
-
   return (
-    <main>
-      <h1>Top 10 Movies Of All Time</h1>
-      <MovieList movies={movies} />
-    </main>
+    <Fragment>
+      <main className="home-container">
+        <Hero />
+        <HeroDetail />
+      </main>
+    </Fragment>
   );
 };
